@@ -24,25 +24,26 @@
 
 ### 들여쓰기
  - 가로 들여쓰기: 스페이스 두 개 혹은 네 개를 사용해 만듦
- `show(parameters, 
-	   aligned,  // 스페이스 다섯 개를 이용해 들여쓰기 함 
-	   one, 
-	   after, 
-	   another 
-)  {  
-	// ...  
-   }`
+     show(parameters, 
+    	   aligned,  // 스페이스 다섯 개를 이용해 들여쓰기 함 
+    	   one, 
+    	   after, 
+    	   another 
+    )  {  
+    	// ...  
+       }
    
 - 세로 들여쓰기: 논리 블록 사이에 넣어 코드를 분리해주는 새 줄
     function  pow(x, n)  {  
-	    let result =  1;  
-	    // 			<--  
-	    for  (let i =  0; i < n; i++)  { 
-		    result *= x;  
-		}  
-		// 			<--  
-		return result;  
-	}
+        let result =  1;  
+        // 			<--  
+        for  (let i =  0; i < n; i++)  { 
+    	    result *= x;  
+    	}  
+    	// 			<--  
+    	return result;  
+    }
+	
 	
 ## 중첩 레벨
 가능한 너무 깊은 중첩레벨을 사용 자제
